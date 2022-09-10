@@ -46,6 +46,7 @@ Given a bounding box in the camera's view, can you determine the coordinates of 
 ## Final Requirements
 * An algorithm implementation that given a camera latitude / longitude / alt, and a target latitude / longitude / altitude determines the azimuth and elevation of the camera
 * Implementation should be compatible with the pan/tilt control api. In other words, the azimuth / elevation should be passable to the `pantilthat` api.
+* UPDATE: Since we don't have an IMU and compass, assume the device base has a fixed rotation. We can just assume it points magnetic north.
 
 
 
