@@ -41,6 +41,7 @@ Given a bounding box in the camera's view, can you determine the coordinates of 
 * The Rpi4 is using libcamera right now. That's the new open source camera stack for Rpis. But if you really need to use something that is only compatible with raspicam, we can make that happen.
 * There is a large battery available if you wish to take the project outside for gps signal and/or testing.
 * If you are good with game engines, perhaps you could do a simulation with this? https://www.panda3d.org/
+* GPS spec, https://gpsd.gitlab.io/gpsd/gpsd_json.html
 
 ## Final Requirements
 * An algorithm implementation that given a camera latitude / longitude / alt, and a target latitude / longitude / altitude determines the azimuth and elevation of the camera
